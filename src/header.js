@@ -1,11 +1,11 @@
 // src/header.js
 
-function Header() {
+function header() {
     return (
-      <div className="Header">
-        <h1>Import Garage</h1>  {/* This is the content for the header */}
-      </div>
+      <header>
+        <h1>Import Garage</h1>
+      </header>
     );
   }
   
-  export default Header;
+  export default header;
