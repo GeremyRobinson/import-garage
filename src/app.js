@@ -1,11 +1,13 @@
 // src/app.js
 
-import Header from './header';  // Import the Header component from src/header.js
+import './app.css';  // Scoped to app component styles
+import header from './header';  // Import the header component
 
 function App() {
   return (
     <div className="App">
-      <Header />  {/* Use it as a JSX element */}
+      {header()}  {/* Render header */}
+      {/* Additional components can be added here */}
     </div>
   );
 }
